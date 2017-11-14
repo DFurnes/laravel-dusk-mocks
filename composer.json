@@ -1,0 +1,26 @@
+{
+  "name": "dfurnes/laravel-dusk-mocks",
+    "description": "Apply mocks to browser requests with Laravel Dusk.",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "David Furnes",
+        "email": "david@dfurnes.com"
+      }
+    ],
+    "autoload": {
+      "psr-4": {
+        "DFurnes\\LaravelDuskMocks\\": "src/"
+      }
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "DFurnes\\LaravelDuskMocks\\ServiceProvider"
+        ]
+      }
+    },
+  "require": {
+    "jeremeamia/superclosure": "^2.3"
+  }
+}
